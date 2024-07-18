@@ -21,7 +21,7 @@ To use this module, you should have Terraform installed and configured for AWS. 
 
 ```hcl
 module "kms_key" {
-  source                  = "git::https://github.com/opsstation/terraform-aws-kms.git?ref=v1.0.0"
+  source                  = "git::https://github.com/yadavprakash/terraform-aws-kms.git?ref=v1.0.0"
   name                    = "kms"
   environment             = "test"
   deletion_window_in_days = 7
@@ -36,7 +36,7 @@ module "kms_key" {
 ## Example: kms-key-external
 ```hcl
 module "kms_key" {
-  source                  = "git::https://github.com/opsstation/terraform-aws-kms.git?ref=v1.0.0"
+  source                  = "git::https://github.com/yadavprakash/terraform-aws-kms.git?ref=v1.0.0"
   name                    = "kms"
   environment             = "test"
   deletion_window_in_days = 7
@@ -55,7 +55,7 @@ module "kms_key" {
 
 ```hcl
 module "kms_key" {
-  source                  = "git::https://github.com/opsstation/terraform-aws-kms.git?ref=v1.0.0"
+  source                  = "git::https://github.com/yadavprakash/terraform-aws-kms.git?ref=v1.0.0"
   name                    = "kms"
   environment             = "test"
   deletion_window_in_days = 7
@@ -70,13 +70,13 @@ module "kms_key" {
 ```
 
 ## Examples
-For detailed examples on how to use this module, please refer to the [Examples](https://github.com/opsstation/terraform-aws-kms/tree/master/example) directory within this repository.
+For detailed examples on how to use this module, please refer to the [Examples](https://github.com/yadavprakash/terraform-aws-kms/tree/master/example) directory within this repository.
 
 ## Author
-Your Name Replace **MIT** and **opsstation** with the appropriate license and your information. Feel free to expand this README with additional details or usage instructions as needed for your specific use case.
+Your Name Replace **MIT** and **yadavprakash** with the appropriate license and your information. Feel free to expand this README with additional details or usage instructions as needed for your specific use case.
 
 ## License
-This project is licensed under the **MIT** License - see the [LICENSE](https://github.com/opsstation/terraform-aws-kms/blob/master/LICENSE) file for details.
+This project is licensed under the **MIT** License - see the [LICENSE](https://github.com/yadavprakash/terraform-aws-kms/blob/master/LICENSE) file for details.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
@@ -96,7 +96,7 @@ This project is licensed under the **MIT** License - see the [LICENSE](https://g
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_labels"></a> [labels](#module\_labels) | git::https://github.com/opsstation/terraform-aws-labels.git | v1.0.0 |
+| <a name="module_labels"></a> [labels](#module\_labels) | git::https://github.com/yadavprakash/terraform-aws-labels.git | v1.0.0 |
 
 ## Resources
 
